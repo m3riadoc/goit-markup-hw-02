@@ -46,8 +46,8 @@ body {
 .nav:focus,
 .contact:hover,
 .contact:focus,
-.btn-all:focus,
-.btn-all:hover {
+.action-btn:focus,
+.action-btn:hover {
   color: #404bbf;
 }
 
@@ -85,9 +85,10 @@ body {
   color: #ffffff;
   cursor: pointer;
 }
+
 /* Second Section */
 
-.header3 {
+.header-three {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -104,7 +105,7 @@ body {
 
 /*Third Section */
 
-.header2 {
+.header-two {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
