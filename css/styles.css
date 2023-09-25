@@ -5,35 +5,36 @@
   --header-color: #4d5ae5;
   --text-color: #434455;
   --navyblue-color: #2e2f42;
-  --white: #fff;
+  --white: #ffffff;
 }
 
 body {
-  font-family: Roboto, sans-serif;
-  color: var(--navyblue-color);
+  font-family: "Roboto", sans-serif;
+  color: var(--text-color);
   background: var(--white);
   font-weight: 400;
 }
 
 .logo {
   text-transform: uppercase;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
   text-decoration: none;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.03em;
+  color: var(--header-color);
 }
 
 .logo:hover {
   color: var(--white);
 }
 
-.web {
-  color: var(--header-color);
+.studio {
+  color: var(--navyblue-color);
 }
 
-.web:hover {
+.studio:hover {
   color: var(--white);
 }
 
@@ -71,7 +72,6 @@ body {
 
 .btn-all {
   background-color: var(--ocean-color);
-  border: var(--ocean-color);
   color: var(--white);
   text-align: center;
   font-family: inherit;
@@ -81,9 +81,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.64px;
   background: var(--ocean-color);
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
-  border-radius: 4px;
 }
 
 .btn-all:hover {
@@ -104,8 +101,6 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
-  border-radius: 4px;
-  border: 1px solid var(--cornflower-color);
 }
 
 .btn-others:hover {
