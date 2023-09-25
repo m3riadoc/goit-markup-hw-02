@@ -53,7 +53,7 @@ body {
 
 .action-btn:focus,
 .action-btn:hover {
-  background-color: var(#404bbf);
+  background-color: #404bbf;
 }
 
 .address {
