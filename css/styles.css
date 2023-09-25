@@ -51,6 +51,11 @@ body {
   color: #404bbf;
 }
 
+.action-btn:focus,
+.action-btn:hover {
+  background-color: var(#404bbf);
+}
+
 .address {
   font-style: normal;
 }
