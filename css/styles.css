@@ -31,7 +31,7 @@ body {
 }
 
 .studio {
-  color: var(--navyblue-color);
+  color: var(--cloud-color);
 }
 
 .studio:hover {
@@ -122,8 +122,8 @@ h3 {
   letter-spacing: 0.4px;
 }
 
-p {
-  color: var(--text-color);
+.footerakapit {
+  color: var(--cloud-color);
   font-family: inherit;
   font-size: 16px;
   font-style: normal;
@@ -132,29 +132,30 @@ p {
   letter-spacing: 0.32px;
 }
 
-footer {
+.footer {
   background-color: var(--navyblue-color);
 }
 
-footer p {
+.footer p {
   color: var(--cloud-color);
   font-family: inherit;
   font-size: 16px;
   font-style: normal;
   font-weight: inherit;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
 .logobottom {
+  line-height: 1.17;
   color: var(--cloud-color);
   text-transform: uppercase;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
   text-decoration: none;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.03em;
 }
 
 .logobottom:hover {
