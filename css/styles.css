@@ -1,0 +1,167 @@
+:root {
+  --cloud-color: #f4f4fd;
+  --cornflower-color: #e7e9fc;
+  --ocean-color: #404bbf;
+  --header-color: #4d5ae5;
+  --text-color: #434455;
+  --navyblue-color: #2e2f42;
+  --white: #fff;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--navyblue-color);
+  background: var(--white);
+  font-weight: 400;
+}
+
+.logo {
+  text-transform: uppercase;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  text-decoration: none;
+  letter-spacing: 0.54px;
+}
+
+.logo:hover {
+  color: var(--white);
+}
+
+.web {
+  color: var(--header-color);
+}
+
+.web:hover {
+  color: var(--white);
+}
+
+.nav-buttons a {
+  color: inherit;
+  text-decoration: none;
+  font-family: inherit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.32px;
+}
+
+.nav-buttons a:hover {
+  color: var(--header-color);
+}
+
+.nav-buttons a:focus {
+  color: var(--header-color);
+}
+
+.nav-buttons a:active {
+  color: var(--header-color);
+}
+
+.address a {
+  text-decoration: none;
+  font-style: normal;
+  color: var(--text-color);
+}
+
+.address a:hover {
+  color: var(--header-color);
+}
+
+.btn-all {
+  background-color: var(--ocean-color);
+  border: var(--ocean-color);
+  color: var(--white);
+  text-align: center;
+  font-family: inherit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  background: var(--ocean-color);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.btn-all:hover {
+  cursor: pointer;
+  color: var(--header-color);
+}
+
+.btn-all:active {
+  color: var(--header-color);
+}
+
+.btn-others {
+  color: var(--header-color);
+  background-color: var(--cloud-color);
+  font-family: inherit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  border-radius: 4px;
+  border: 1px solid var(--cornflower-color);
+}
+
+.btn-others:hover {
+  cursor: pointer;
+  color: var(--white);
+}
+
+.btn-others:active {
+  color: var(--white);
+}
+
+h3 {
+  color: inherit;
+  font-family: inherit;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+}
+
+p {
+  color: var(--text-color);
+  font-family: inherit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: inherit;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+footer {
+  background-color: var(--navyblue-color);
+}
+
+footer p {
+  color: var(--cloud-color);
+  font-family: inherit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: inherit;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.logobottom {
+  color: var(--cloud-color);
+  text-transform: uppercase;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  text-decoration: none;
+  letter-spacing: 0.54px;
+}
+
+.logobottom:hover {
+  color: var(--cornflower-color);
+}
